@@ -1,0 +1,920 @@
+index_id,True_Misconception,openai/gpt-oss-20b,llama-3.1-8b-instant,qwen/qwen3-32b
+0,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+1,Wrong Fraction,Wrong Fraction,Additive Reasoning Error,Additive Reasoning Error
+2,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+3,Unclassified Error,Interior Angle Error,Definition Error,Definition Error
+4,Unclassified Error,Longer Decimals Are Bigger,Shorter Decimals Are Bigger,Shorter Decimals Are Bigger
+5,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+6,Unclassified Error,Inverse Operation Error,Additive Reasoning Error,Flip and Change Error
+7,Unclassified Error,Unclassified Error,Whole Number Bias,Shorter Decimals Are Bigger
+8,Subtraction Error,Multiplication Error,Additive Reasoning Error,Additive Reasoning Error
+9,Unclassified Error,Wrong Fraction,Adding Fractions Across,Adding Fractions Across
+10,Unclassified Error,Additive Reasoning Error,Duplicate Error,Additive Reasoning Error
+11,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+12,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+13,Unknowable Error,Unclassified Error,Unclassified Error,Unclassified Error
+14,Subtraction Error,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+15,Wrong Fraction,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+16,Swapped Dividend,Swapped Dividend,Additive Reasoning Error,Swapped Dividend
+17,Duplication Error,Unclassified Error,Duplication Error,Duplication Error
+18,Multiplication Error,Division Error,Swapped Dividend,Inversion Error
+19,Irrelevant Explanation,Unclassified Error,Whole Number Bias,Additive Reasoning Error
+20,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+21,Inversion Error,Denominator Only Change,Duplication Error,Inversion Error
+22,Inversion Error,Multiplication Error,Incomplete Calculation,Inversion Error
+23,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+24,Unclassified Error,Unclassified Error,Additive Reasoning Error,Incomplete Calculation
+25,Unclassified Error,Multiplication Error,Scale Factor Error,Scale Factor Error
+26,Unclassified Error,Wrong Fraction,Additive Reasoning Error,Division Error
+27,Whole Number Bias,Denominator Only Change,Whole Number Bias,Whole Number Bias
+28,Unclassified Error,Unclassified Error,Additive Reasoning Error,Incomplete Calculation
+29,Unclassified Error,Multiplication Error,Unclassified Error,Unclassified Error
+30,Unclassified Error,Positive/Negative Sign Error,Additive Reasoning Error,Positive/Negative Sign Error
+31,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+32,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+33,Wrong Fraction,Wrong Term,Wrong Fraction,Incomplete Calculation
+34,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+35,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+36,Irrelevant Explanation,Wrong Term,Whole Number Bias,Unclassified Error
+37,Definition Error,Definition Error,Whole Number Bias,Definition Error
+38,Not A Variable,Wrong Term,Whole Number Bias,Whole Number Bias
+39,Unclassified Error,Unclassified Error,Whole Number Bias,Longer Decimals Are Bigger
+40,Unclassified Error,Multiplication Error,Swapped Dividend,Swapped Dividend
+41,Additive Reasoning Error,Additive Reasoning Error,"Whole Number Bias, Additive Reasoning Error",Additive Reasoning Error
+42,Unclassified Error,Multiplication Error,Unknowable Error,Inversion Error
+43,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+44,Unclassified Error,Unclassified Error,Multiplication Error,Unclassified Error
+45,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+46,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+47,Denominator Only Change,Additive Reasoning Error,Adding Fractions Across,Adding Fractions Across
+48,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+49,Irrelevant Explanation,Unclassified Error,Whole Number Bias,Whole Number Bias
+50,Inversion Error,Inverse Operation Error,Multiplication Error,Inversion Error
+51,Unclassified Error,Whole Number Bias,Whole Number Bias,Whole Number Bias
+52,Unclassified Error,Wrong Fraction,Additive Reasoning Error,Additive Reasoning Error
+53,Swapped Dividend,Multiplication Error,Whole Number Bias,Swapped Dividend
+54,Unclassified Error,Wrong Fraction,Incomplete Calculation,Whole Number Bias
+55,Unclassified Error,Wrong Fraction,Whole Number Bias,Whole Number Bias
+56,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+57,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+58,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+59,Adding Fractions Across,Adding Fractions Across,Adding Unlike Terms,Adding Fractions Across
+60,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Whole Numbers Are Larger
+61,Unclassified Error,Irrelevant Explanation,Whole Number Bias,Unclassified Error
+62,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+63,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+64,Unclassified Error,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error
+65,Unclassified Error,Unclassified Error,Unclassified Error,Adding Fractions Across
+66,Positive/Negative Sign Error,Positive/Negative Sign Error,Additive Reasoning Error,Positive/Negative Sign Error
+67,Duplication Error,Duplication Error,Duplicate Error,Duplication Error
+68,Unclassified Error,Positive/Negative Sign Error,Additive Reasoning Error,Positive/Negative Sign Error
+69,Unclassified Error,Wrong Fraction,Whole Number Bias,Unclassified Error
+70,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+71,Unclassified Error,Whole Number Bias,Adding Fractions Across,Additive Reasoning Error
+72,Wrong Term,Wrong Term,Whole Number Bias,Unclassified Error
+73,Incomplete Calculation,Incomplete Calculation,Additive Reasoning Error,Incomplete Calculation
+74,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+75,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+76,Additive Reasoning Error,Additive Reasoning Error,Inversion Error,Additive Reasoning Error
+77,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+78,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+79,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+80,Inversion Error,Flip and Change Error,Inversion Error,Flip and Change Error
+81,Scale Factor Error,Whole Number Bias,Whole Number Bias,Tacking On Zeroes
+82,Unclassified Error,Duplication Error,Swapped Dividend,Duplication Error
+83,Unclassified Error,Definition Error,Whole Number Bias,Definition Error
+84,Unclassified Error,Duplication Error,Duplication Error,Duplication Error
+85,Unclassified Error,Unclassified Error,Unclassified Error,Definition Error
+86,Unclassified Error,Multiplication Error,Multiplication Error,Unclassified Error
+87,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Whole Numbers Are Larger
+88,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+89,Adding Fractions Across,Additive Reasoning Error,Adding Fractions Across,Adding Fractions Across
+90,Ignores Zeroes,Whole Number Bias,Whole Number Bias,Unclassified Error
+91,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+92,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+93,Unclassified Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+94,Unclassified Error,Additive Reasoning Error,Adding Fractions Across,Additive Reasoning Error
+95,Unclassified Error,Wrong Fraction,Whole Number Bias,Unclassified Error
+96,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+97,Unclassified Error,Wrong Term,Whole Number Bias,Wrong Term
+98,Unclassified Error,Additive Reasoning Error,Additive Reasoning Error,Unclassified Error
+99,Unclassified Error,Unclassified Error,Swapped Dividend,Unclassified Error
+100,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+101,Denominator Only Change,Wrong Fraction,Additive Reasoning Error,Adding Fractions Across
+102,Unclassified Error,Positive/Negative Sign Error,Swapped Dividend,Positive/Negative Sign Error
+103,Unclassified Error,Inverse Operation Error,Whole Number Bias,Positive/Negative Sign Error
+104,Unclassified Error,Incomplete Calculation,Incomplete Calculation,Unknowable Error
+105,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+106,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+107,Multiplying By 4,Multiplication Error,Scale Factor Error,Multiplication Error
+108,Subtraction Error,Multiplication Error,Additive Reasoning Error,Additive Reasoning Error
+109,Unclassified Error,Whole Number Bias,Whole Number Bias,Whole Number Bias
+110,Unclassified Error,Wrong Fraction,Whole Number Bias,Duplication Error
+111,Unclassified Error,Unclassified Error,Multiplication Error,Unclassified Error
+112,Unclassified Error,Unclassified Error,Scale Factor Error,Multiplication Error
+113,Unclassified Error,Wrong Fraction,Whole Number Bias,Unclassified Error
+114,Wrong Fraction,Wrong Term,Whole Number Bias,Incomplete Calculation
+115,Wrong Term,Wrong Term,Additive Reasoning Error,Unclassified Error
+116,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+117,Multiplying By 4,Multiplication Error,Scale Factor Error,Inversion Error
+118,Denominator Only Change,Adding Fractions Across,Adding Fractions Across,Adding Fractions Across
+119,Tacking On Zeroes,Tacking On Zeroes,Whole Number Bias,Positive/Negative Sign Error
+120,Unclassified Error,Unclassified Error,Inversion Error,Unclassified Error
+121,Unclassified Error,Interior Angle Error,Additive Reasoning Error,Unclassified Error
+122,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+123,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+124,Unclassified Error,Adding Fractions Across,Adding Fractions Across,Adding Fractions Across
+125,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+126,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+127,Whole Number Bias,Wrong Fraction,Incomplete Calculation,Whole Number Bias
+128,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+129,Unclassified Error,Unclassified Error,Inversion Error,Irrelevant Explanation
+130,Unclassified Error,Unclassified Error,Additive Reasoning Error,Positive/Negative Sign Error
+131,Unclassified Error,Whole Number Bias,Whole Number Bias,Unclassified Error
+132,Unclassified Error,Additive Reasoning Error,Denominator Only Change,Additive Reasoning Error
+133,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+134,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+135,Unclassified Error,Unclassified Error,Unclassified Error,Whole Number Bias
+136,Multiplication Error,Unclassified Error,Swapped Dividend,Inverse Operation Error
+137,Unclassified Error,Unclassified Error,Whole Numbers Are Larger,Unclassified Error
+138,Whole Numbers Are Larger,Unclassified Error,Whole Number Bias,Whole Number Bias
+139,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+140,Incomplete Calculation,Denominator Only Change,Incomplete Calculation,Whole Number Bias
+141,Shorter Decimals Are Bigger,Unclassified Error,Ignores Zeroes,Shorter Decimals Are Bigger
+142,Scale Factor Error,Definition Error,Whole Number Bias,Definition Error
+143,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+144,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+145,Unclassified Error,Unclassified Error,Duplication Error,Unclassified Error
+146,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+147,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+148,Unclassified Error,Unclassified Error,Shorter Decimals Are Bigger,Unclassified Error
+149,Positive/Negative Sign Error,Positive/Negative Sign Error,Additive Reasoning Error,Inverse Operation Error
+150,Wrong Fraction,Wrong Term,Additive Reasoning Error,Wrong Term
+151,Unclassified Error,Additive Reasoning Error,Whole Number Bias,Unclassified Error
+152,Unclassified Error,Unknowable Error,Whole Number Bias,Unclassified Error
+153,Incomplete Calculation,Wrong Fraction,Incomplete Calculation,Unclassified Error
+154,Multiplication Error,Division Error,Inversion Error,Swapped Dividend
+155,Unclassified Error,Irrelevant Explanation,Whole Number Bias,Unclassified Error
+156,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+157,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+158,Unclassified Error,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error
+159,Whole Number Bias,Denominator Only Change,Unclassified Error,Whole Number Bias
+160,Subtraction Error,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error
+161,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+162,Multiplication Error,Division Error,Swapped Dividend,Swapped Dividend
+163,Unclassified Error,Wrong Term,Whole Number Bias,Wrong Term
+164,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+165,Unclassified Error,Unclassified Error,Whole Number Bias,Whole Number Bias
+166,First Term Error,Wrong Term,Additive Reasoning Error,Unclassified Error
+167,Unclassified Error,Definition Error,Whole Number Bias,Base Rate Error
+168,Irrelevant Explanation,Division Error,Additive Reasoning Error,Scale Factor Error
+169,Multiplying By 4,Multiplying By 4,Scale Factor Error,Inverse Operation Error
+170,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+171,Unclassified Error,Unclassified Error,Swapped Dividend,Unclassified Error
+172,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+173,Multiplication Error,Swapped Dividend,Swapped Dividend,Swapped Dividend
+174,Swapped Dividend,Swapped Dividend,Swapped Dividend,Swapped Dividend
+175,Whole Numbers Are Larger,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias
+176,Unclassified Error,Unclassified Error,Definition Error,Unclassified Error
+177,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+178,Unclassified Error,Inverse Operation Error,Multiplication Error,Scale Factor Error
+179,Unclassified Error,Division Error,Whole Number Bias,Swapped Dividend
+180,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+181,Unclassified Error,Additive Reasoning Error,Additive Reasoning Error,Unclassified Error
+182,Irrelevant Explanation,Wrong Term,Adding Fractions Across,Division Error
+183,Unclassified Error,Incomplete Calculation,Unclassified Error,Incomplete Calculation
+184,Unclassified Error,Unclassified Error,Definition Error,Unclassified Error
+185,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+186,Flip and Change Error,Swapped Dividend,Swapped Dividend,Swapped Dividend
+187,Unclassified Error,Wrong Fraction,Whole Number Bias,Unclassified Error
+188,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Whole Number Bias
+189,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+190,Whole Number Bias,Denominator Only Change,Whole Number Bias,Definition Error
+191,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Whole Numbers Are Larger
+192,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+193,Wrong Fraction,Wrong Term,Whole Number Bias,Incomplete Calculation
+194,Unclassified Error,Unclassified Error,Multiplication Error,Unclassified Error
+195,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+196,Unclassified Error,Whole Number Bias,Whole Numbers Are Larger,Whole Number Bias
+197,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+198,Subtraction Error,Subtraction Error,Incorrect application of the concept. The correct application should be 2/3 times 1/3.  The correct answer would be (2/3)*(1/3) = 2/9.,Additive Reasoning Error
+199,Interior Angle Error,Multiplication Error,Scale Factor Error,Definition Error
+200,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+201,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+202,Definition Error,Unclassified Error,Whole Number Bias,Unclassified Error
+203,Inversion Error,Inversion Error,Inversion Error,Flip and Change Error
+204,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+205,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+206,Wrong Fraction,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+207,Unclassified Error,Division Error,Wrong Fraction,Unclassified Error
+208,Multiplication Error,Swapped Dividend,Swapped Dividend,Duplication Error
+209,Unclassified Error,Wrong Fraction,Adding Fractions Across,Denominator Only Change
+210,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+211,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+212,Unclassified Error,Incomplete Calculation,Wrong Fraction,Incomplete Calculation
+213,Unclassified Error,Positive/Negative Sign Error,Unclassified Error,Whole Number Bias
+214,Incomplete Calculation,Wrong Fraction,Incomplete Calculation,Incomplete Calculation
+215,Division Error,Division Error,Swapped Dividend,Inverse Operation Error
+216,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+217,Unclassified Error,Unclassified Error,Whole Number Bias,Unknowable Error
+218,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+219,Unclassified Error,Wrong Term,Whole Number Bias,Unclassified Error
+220,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+221,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+222,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+223,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+224,Inversion Error,Multiplication Error,Duplication Error,Denominator Only Change
+225,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+226,Subtraction Error,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+227,Multiplication Error,Wrong Fraction,Swapped Dividend,Swapped Dividend
+228,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+229,Subtraction Error,Subtraction Error,Wrong Term,Additive Reasoning Error
+230,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+231,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+232,Duplication Error,Duplication Error,Incomplete Calculation,Duplication Error
+233,Unclassified Error,Unclassified Error,Whole Number Bias,Wrong Term
+234,Unclassified Error,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+235,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+236,Unclassified Error,Wrong Fraction,Whole Number Bias,Unclassified Error
+237,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+238,Irrelevant Explanation,Scale Factor Error,Multiplication Error,Scale Factor Error
+239,Denominator Only Change,Wrong Fraction,Additive Reasoning Error,Unclassified Error
+240,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+241,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+242,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+243,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+244,Unclassified Error,Wrong Term,Unclassified Error,Unclassified Error
+245,Multiplication Error,Division Error,Additive Reasoning Error,Swapped Dividend
+246,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+247,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+248,Unclassified Error,Swapped Dividend,Multiplication Error,Swapped Dividend
+249,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+250,Adding Fractions Across,Additive Reasoning Error,Adding Fractions Across,Adding Fractions Across
+251,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Whole Numbers Are Larger
+252,Unclassified Error,Unclassified Error,Inverse Operation Error,Unclassified Error
+253,Unclassified Error,Unclassified Error,Positive/Negative Sign Error,Unclassified Error
+254,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+255,Unclassified Error,Unclassified Error,Positive/Negative Sign Error,Positive/Negative Sign Error
+256,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+257,Whole Numbers Are Larger,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias
+258,Unclassified Error,Wrong Term,Unclassified Error,Unclassified Error
+259,Subtraction Error,Additive Reasoning Error,Inversion Error,Additive Reasoning Error
+260,Duplication Error,Duplication Error,Whole Number Bias,Duplication Error
+261,Unclassified Error,Whole Number Bias,Unclassified Error,Whole Number Bias
+262,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+263,Base Rate Error,Division Error,Additive Reasoning Error,Division Error
+264,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Whole Number Bias
+265,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+266,Unclassified Error,Unclassified Error,Incomlete Calculation,Unclassified Error
+267,Unclassified Error,Unclassified Error,Additive Reasoning Error,Wrong Fraction
+268,Unclassified Error,Wrong Term,Unclassified Error,Unclassified Error
+269,Unclassified Error,Irrelevant Explanation,Whole Number Bias,Additive Reasoning Error
+270,Unclassified Error,Unclassified Error,"Incorrect calculation of the shaded portion followed by a subtraction error, actually this is 'Swapped Dividend', where the student incorrectly subtracted the part of the shape they were trying to find",Unclassified Error
+271,Unclassified Error,Denominator Only Change,Whole Number Bias,Whole Number Bias
+272,Unclassified Error,Unclassified Error,Whole Number Bias,Wrong Fraction
+273,Unclassified Error,Duplication Error,Incomplete Calculation,Scale Factor Error
+274,Unknowable Error,Unclassified Error,Whole Number Bias,Unknowable Error
+275,Unclassified Error,Wrong Term,Adding Unlike Terms,Additive Reasoning Error
+276,Unclassified Error,Positive/Negative Sign Error,Swapped Dividend,Positive/Negative Sign Error
+277,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+278,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+279,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+280,Unclassified Error,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error
+281,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+282,Unclassified Error,Unclassified Error,Duplication Error,Unknowable Error
+283,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+284,Unclassified Error,Whole Number Bias,Whole Number Bias,Unclassified Error
+285,Positive/Negative Sign Error,Positive/Negative Sign Error,Additive Reasoning Error,Positive/Negative Sign Error
+286,Unclassified Error,Whole Number Bias,Whole Number Bias,Unclassified Error
+287,Unclassified Error,Unclassified Error,Incomplete Calculation,Wrong Term
+288,Unclassified Error,Wrong Term,Additive Reasoning Error,Unclassified Error
+289,Adding Fractions Across,Additive Reasoning Error,Adding Fractions Across,Adding Fractions Across
+290,Wrong Term,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+291,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+292,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+293,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+294,Unclassified Error,Multiplication Error,Swapped Dividend,Inversion Error
+295,Adding Fractions Across,Adding Fractions Across,Incomplete Calculation,Adding Fractions Across
+296,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+297,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+298,Unclassified Error,Unclassified Error,Adding Fractions Across,Adding Fractions Across
+299,Wrong Fraction,Wrong Term,Unclassified Error,Wrong Term
+300,Unclassified Error,Unclassified Error,Swapped Dividend,Unclassified Error
+301,Unclassified Error,Tacking On Zeroes,Tacking On Zeroes,Tacking On Zeroes
+302,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+303,Unclassified Error,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+304,Unclassified Error,Whole Number Bias,Whole Number Bias,Shorter Decimals Are Bigger
+305,Unknowable Error,Unclassified Error,Unclassified Error,Irrelevant Explanation
+306,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+307,Swapped Dividend,Swapped Dividend,Additive Reasoning Error,Swapped Dividend
+308,Irrelevant Explanation,Wrong Fraction,Additive Reasoning Error,Whole Number Bias
+309,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+310,Swapped Dividend,Denominator Only Change,Swapped Dividend,Swapped Dividend
+311,Unclassified Error,Wrong Fraction,Incomplete Calculation,Unclassified Error
+312,Denominator Only Change,Adding Fractions Across,Adding Fractions Across,Wrong Fraction
+313,Unclassified Error,Unclassified Error,Duplication Error,Unclassified Error
+314,Division Error,Division Error,Wrong Term,Inverse Operation Error
+315,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+316,Multiplication Error,Division Error,Swapped Dividend,Swapped Dividend
+317,Wrong Fraction,Wrong Fraction,Additive Reasoning Error,Wrong Fraction
+318,Wrong Term,Additive Reasoning Error,Whole Number Bias,Unclassified Error
+319,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+320,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+321,Multiplication Error,Multiplication Error,Swapped Dividend,Swapped Dividend
+322,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+323,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+324,Unclassified Error,Positive/Negative Sign Error,Swapped Dividend,Positive/Negative Sign Error
+325,Unclassified Error,Wrong Term,Whole Number Bias,Base Rate Error
+326,Multiplying By 4,Multiplication Error,Multiplication Error,Unclassified Error
+327,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+328,Unclassified Error,Unclassified Error,Wrong Fraction,Unknowable Error
+329,Additive Reasoning Error,Additive Reasoning Error,Unclassified Error,Additive Reasoning Error
+330,Unclassified Error,Wrong Term,Addition Reasoning Error,Unclassified Error
+331,Inversion Error,Inverse Operation Error,"Incorrect - However, upon reevaluating -  In the given explanation - the student did indeed use the whole number 5 and convert it into 1/5, after which they decided to multiply the numerators instead of the values, which leads us to a Duplication Error",Inversion Error
+332,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+333,Adding Unlike Terms,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+334,Unclassified Error,Unclassified Error,Irrelevant Explanation,Unclassified Error
+335,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+336,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+337,Unclassified Error,Wrong Fraction,Inversion Error,Unclassified Error
+338,Positive/Negative Sign Error,Positive/Negative Sign Error,Positive/Negative Sign Error,Positive/Negative Sign Error
+339,Unclassified Error,Unclassified Error,Additive Reasoning Error,Inverse Operation Error
+340,Unclassified Error,Multiplication Error,Whole Number Bias,Unclassified Error
+341,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+342,Unclassified Error,Positive/Negative Sign Error,Additive Reasoning Error,Inverse Operation Error
+343,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+344,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+345,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+346,Unclassified Error,Wrong Term,Whole Number Bias,Base Rate Error
+347,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+348,Unclassified Error,Duplication Error,Duplication Error,Duplication Error
+349,Unclassified Error,Multiplication Error,Whole Number Bias,Unclassified Error
+350,Incomplete Calculation,Incomplete Calculation,Additive Reasoning Error,Incomplete Calculation
+351,Unclassified Error,Wrong Fraction,Whole Number Bias,Unclassified Error
+352,Wrong Term,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+353,Incomplete Calculation,Incomplete Calculation,Duplicate Error,Incomplete Calculation
+354,Unclassified Error,Wrong Fraction,Incomplete Calculation,Unclassified Error
+355,Adding Unlike Terms,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+356,Unclassified Error,Wrong Term,Whole Number Bias,Unclassified Error
+357,Unclassified Error,Multiplication Error,Inversion Error,Unclassified Error
+358,Denominator Only Change,Wrong Fraction,Inversion Error,Adding Fractions Across
+359,Whole Number Bias,Wrong Fraction,Inversion Error,Whole Number Bias
+360,Adding Fractions Across,Additive Reasoning Error,Adding Fractions Across,Adding Fractions Across
+361,Unclassified Error,Unclassified Error,Longer Decimals Are Bigger,Whole Number Bias
+362,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+363,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+364,Tacking On Zeroes,Positive/Negative Sign Error,Additive Reasoning Error,Whole Number Bias
+365,Unclassified Error,Division Error,Whole Number Bias,Division Error
+366,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+367,Unclassified Error,Unclassified Error,Unknowable Error,Unclassified Error
+368,Unclassified Error,Unclassified Error,Additive Reasoning Error,Positive/Negative Sign Error
+369,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+370,Irrelevant Explanation,Wrong Term,Additive Reasoning Error,Whole Number Bias
+371,Certainty Bias,Unclassified Error,Certainty Bias,Wrong Term
+372,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+373,Unclassified Error,Whole Number Bias,Whole Number Bias,Unknowable Error
+374,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+375,Scale Factor Error,Definition Error,Whole Number Bias,Base Rate Error
+376,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+377,Division Error,Division Error,Additive Reasoning Error,Inverse Operation Error
+378,Unclassified Error,Positive/Negative Sign Error,Inversion Error,Inverse Operation Error
+379,Incomplete Calculation,Incomplete Calculation,Duplication Error,Incomplete Calculation
+380,Unclassified Error,Positive/Negative Sign Error,Swapped Dividend,Inverse Operation Error
+381,Unclassified Error,Division Error,Multiplication Error,Unclassified Error
+382,Unclassified Error,Wrong Term,Whole Number Bias,Unclassified Error
+383,Unclassified Error,Irrelevant Explanation,Additive Reasoning Error,Division Error
+384,Unclassified Error,Multiplication Error,Multiplication Error,Inversion Error
+385,Irrelevant Explanation,Multiplication Error,Additive Reasoning Error,Unclassified Error
+386,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+387,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+388,Unclassified Error,Additive Reasoning Error,Adding Unlike Terms,Additive Reasoning Error
+389,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+390,Unclassified Error,Unclassified Error,Subtraction Error,Unclassified Error
+391,Positive/Negative Sign Error,Positive/Negative Sign Error,Additive Reasoning Error,Positive/Negative Sign Error
+392,Wrong Fraction,Wrong Term,Additive Reasoning Error,Wrong Term
+393,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+394,Inversion Error,Wrong Fraction,Inversion Error,Wrong Fraction
+395,Tacking On Zeroes,Positive/Negative Sign Error,Adding Fractions Across,Flip and Change Error
+396,Positive/Negative Sign Error,Positive/Negative Sign Error,Wrong Term,Positive/Negative Sign Error
+397,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+398,Unclassified Error,Unclassified Error,Subtraction Error,Positive/Negative Sign Error
+399,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+400,Subtraction Error,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+401,Unclassified Error,Wrong Term,Whole Number Bias,Unclassified Error
+402,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+403,Unclassified Error,Positive/Negative Sign Error,Additive Reasoning Error,Positive/Negative Sign Error
+404,Unclassified Error,Unclassified Error,Whole Number Bias,Definition Error
+405,Wrong Fraction,Scale Factor Error,Whole Number Bias,Wrong Fraction
+406,Unclassified Error,Unclassified Error,Swapped Dividend,Unclassified Error
+407,Wrong Term,Wrong Term,Additive Reasoning Error,First Term Error
+408,Inversion Error,Wrong Fraction,Swapped Dividend,Denominator Only Change
+409,Unclassified Error,Wrong Fraction,Unclassified Error,Adding Fractions Across
+410,Subtraction Error,Wrong Fraction,Additive Reasoning Error,Additive Reasoning Error
+411,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+412,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+413,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+414,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Whole Number Bias
+415,Unclassified Error,Multiplication Error,Duplication Error,Duplication Error
+416,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+417,Whole Numbers Are Larger,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias
+418,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+419,Unclassified Error,Unclassified Error,Swapped Dividend,Unclassified Error
+420,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+421,Unclassified Error,Unclassified Error,Scale Factor Error,Denominator Only Change
+422,Tacking On Zeroes,Positive/Negative Sign Error,Additive Reasoning Error,Definition Error
+423,Wrong Fraction,Multiplication Error,Additive Reasoning Error,Incomplete Calculation
+424,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Unclassified Error
+425,Unclassified Error,Multiplication Error,Unclassified Error,Unclassified Error
+426,Unclassified Error,Wrong Fraction,Inversion Error,Unclassified Error
+427,Additive Reasoning Error,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+428,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+429,Denominator Only Change,Wrong Fraction,Adding Fractions Across,Additive Reasoning Error
+430,Wrong Term,Unclassified Error,Whole Number Bias,Unclassified Error
+431,Unclassified Error,Duplication Error,Whole Number Bias,Duplication Error
+432,Unclassified Error,Unclassified Error,Unknowable Error,Unclassified Error
+433,Unclassified Error,Inversion Error,Whole Number Bias,Inversion Error
+434,Unclassified Error,Wrong Fraction,Adding Fractions Across,Adding Fractions Across
+435,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+436,Unclassified Error,Division Error,Unclassified Error,Swapped Dividend
+437,Whole Number Bias,Wrong Fraction,Incomplete Calculation,Whole Number Bias
+438,Positive/Negative Sign Error,Positive/Negative Sign Error,Additive Reasoning Error,Positive/Negative Sign Error
+439,Denominator Only Change,Wrong Fraction,Whole Number Bias,Adding Fractions Across
+440,Subtraction Error,Subtraction Error,Incomplete Calculation,Additive Reasoning Error
+441,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+442,Unclassified Error,Subtraction Error,Incomplete Calculation,Positive/Negative Sign Error
+443,Denominator Only Change,Wrong Fraction,Adding Unlike Terms,Denominator Only Change
+444,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+445,Unclassified Error,Definition Error,Whole Number Bias,Definition Error
+446,Unclassified Error,Additive Reasoning Error,Whole Number Bias,Scale Factor Error
+447,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+448,Adding Unlike Terms,Additive Reasoning Error,Whole Number Bias,Inverse Operation Error
+449,Unknowable Error,Definition Error,Unclassified Error,Definition Error
+450,Wrong Fraction,Wrong Fraction,Incomplete Calculation,Wrong Term
+451,Unclassified Error,Unclassified Error,Subtraction Error,Unclassified Error
+452,Unclassified Error,Multiplication Error,Wrong Fraction,Unclassified Error
+453,Unclassified Error,Definition Error,Whole Number Bias,Definition Error
+454,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+455,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+456,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+457,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+458,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+459,Unclassified Error,Unclassified Error,Unclassified Error,Whole Number Bias
+460,Incomplete Calculation,Scale Factor Error,Whole Number Bias,Incomplete Calculation
+461,Unclassified Error,Irrelevant Explanation,Whole Number Bias,Definition Error
+462,Unclassified Error,Unclassified Error,Unclassified Error,Incomplete Calculation
+463,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+464,First Term Error,Wrong Term,Additive Reasoning Error,Additive Reasoning Error
+465,Unclassified Error,Inversion Error,Swapped Dividend,Swapped Dividend
+466,Unclassified Error,Multiplication Error,"Inadequate calculation (not Incomplete Calculation, but actually this case) is not listed as an option. However, since this could be seen as an attempt at subtracting like fractions - the actual answer is the closest to this case in the options. So the closest case would be Subtracting Unlike Terms doesn't apply in this scenario, however, it resembles Additive Reasoning Error which applies. Therefore: Additive Reasoning Error",Additive Reasoning Error
+467,Unclassified Error,Subtraction Error,Incomplete Calculation,Subtraction Error
+468,Inversion Error,Inversion Error,Additive Reasoning Error,Inversion Error
+469,Unclassified Error,Wrong Fraction,Incomplete Calculation,Unclassified Error
+470,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+471,Subtraction Error,Subtraction Error,Whole Number Bias,Additive Reasoning Error
+472,Unclassified Error,Unclassified Error,Whole Number Bias,Whole Number Bias
+473,Irrelevant Explanation,Unclassified Error,Whole Number Bias,Unclassified Error
+474,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+475,Unclassified Error,Multiplication Error,Whole Number Bias,Division Error
+476,Unclassified Error,Wrong Fraction,Incomplete Calculation,Incomplete Calculation
+477,Unclassified Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+478,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+479,Unclassified Error,Subtraction Error,Wrong Term,Unclassified Error
+480,Wrong Fraction,Wrong Term,Swapped Dividend,Swapped Dividend
+481,Whole Number Bias,Denominator Only Change,Additive Reasoning Error,Definition Error
+482,Incomplete Calculation,Incomplete Calculation,Denominator Only Change,Incomplete Calculation
+483,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+484,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+485,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+486,Wrong Term,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+487,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+488,Unknowable Error,Unclassified Error,Ignores Zeroes,Definition Error
+489,Not A Variable,Division Error,Incomplete Calculation,Unclassified Error
+490,Tacking On Zeroes,Positive/Negative Sign Error,Additive Reasoning Error,Subtraction Error
+491,Unclassified Error,Unclassified Error,Duplication Error,Unclassified Error
+492,Unclassified Error,Positive/Negative Sign Error,Swapped Dividend,Positive/Negative Sign Error
+493,Whole Numbers Are Larger,Whole Numbers Are Larger,Whole Number Bias,Whole Numbers Are Larger
+494,Unclassified Error,Unclassified Error,Subtraction Error,Unclassified Error
+495,Duplication Error,Wrong Fraction,Duplication Error,Duplication Error
+496,Unclassified Error,Wrong Term,Swapped Dividend,Unclassified Error
+497,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+498,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+499,Unclassified Error,Unclassified Error,Whole Number Bias,Whole Number Bias
+500,Unclassified Error,Subtraction Error,Whole Number Bias,Unclassified Error
+501,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+502,Unclassified Error,Multiplication Error,Unclassified Error,Inverse Operation Error
+503,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+504,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+505,Unclassified Error,Division Error,Additive Reasoning Error,Unclassified Error
+506,Unclassified Error,Division Error,Whole Number Bias,Division Error
+507,Wrong Fraction,Multiplication Error,Incomplete Calculation,Scale Factor Error
+508,Unclassified Error,Multiplication Error,Additive Reasoning Error,Incomplete Calculation
+509,Wrong Fraction,Wrong Term,Additive Reasoning Error,Wrong Term
+510,Unclassified Error,Irrelevant Explanation,Whole Number Bias,Unclassified Error
+511,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+512,Unclassified Error,Additive Reasoning Error,Adding Fractions Across,Adding Fractions Across
+513,Wrong Fraction,Subtraction Error,Unclassified Error,Multiplication Error
+514,Unclassified Error,Multiplication Error,Swapped Dividend,Inversion Error
+515,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+516,Unclassified Error,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias
+517,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+518,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+519,Multiplication Error,Whole Number Bias,Whole Number Bias,Whole Number Bias
+520,Unclassified Error,Unclassified Error,Whole Number Bias,Definition Error
+521,Unclassified Error,Whole Number Bias,Whole Number Bias,Unclassified Error
+522,Tacking On Zeroes,Subtraction Error,Additive Reasoning Error,Positive/Negative Sign Error
+523,Wrong Fraction,Wrong Term,Additive Reasoning Error,Subtraction Error
+524,Duplication Error,Duplication Error,Whole Number Bias,Duplication Error
+525,Interior Angle Error,Definition Error,Unknowable Error,Unclassified Error
+526,Duplication Error,Duplication Error,Multiplication Error,Duplication Error
+527,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+528,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+529,Wrong Fraction,Wrong Term,Duplicate Reasoning Error,Wrong Fraction
+530,Unclassified Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+531,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+532,Adding Fractions Across,Additive Reasoning Error,Additive Reasoning Error,Adding Fractions Across
+533,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+534,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+535,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+536,Unclassified Error,Wrong Fraction,Whole Number Bias,Definition Error
+537,Unknowable Error,Unclassified Error,Whole Number Bias,Definition Error
+538,Unclassified Error,Duplication Error,Incompletion of Simplification or Incomplete Calculation,Duplication Error
+539,Inversion Error,Duplication Error,Whole Number Bias,Duplication Error
+540,Unclassified Error,Irrelevant Explanation,Incomplete Calculation,Inverse Operation Error
+541,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+542,Subtraction Error,Subtraction Error,Incomplete Calculation,Additive Reasoning Error
+543,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+544,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+545,Positive/Negative Sign Error,Positive/Negative Sign Error,Additive Reasoning Error,Positive/Negative Sign Error
+546,Positive/Negative Sign Error,Positive/Negative Sign Error,Inversion Error,Positive/Negative Sign Error
+547,Irrelevant Explanation,Whole Number Bias,Additive Reasoning Error,Unclassified Error
+548,Wrong Fraction,Wrong Term,Whole Number Bias,Incomplete Calculation
+549,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+550,Unclassified Error,Incomplete Calculation,Additive Reasoning Error,Incomplete Calculation
+551,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+552,Unclassified Error,Incomplete Calculation,Additive Reasoning Error,Incomplete Calculation
+553,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+554,Unclassified Error,Positive/Negative Sign Error,Unclassified Error,Positive/Negative Sign Error
+555,Unclassified Error,Unclassified Error,Swapped Dividend,Inversion Error
+556,Unclassified Error,Unclassified Error,Unclassified Error,Whole Number Bias
+557,Wrong Fraction,Wrong Fraction,Additive Reasoning Error,Wrong Fraction
+558,Unclassified Error,Multiplication Error,Additive Reasoning Error,Additive Reasoning Error
+559,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+560,Wrong Fraction,Wrong Term,Swapped Dividend,Wrong Term
+561,Wrong Fraction,Incomplete Calculation,Inversion Error,Incomplete Calculation
+562,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+563,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+564,Wrong Fraction,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+565,Whole Number Bias,Wrong Fraction,Additive Reasoning Error,Wrong Term
+566,Denominator Only Change,Additive Reasoning Error,Adding Fractions Across,Additive Reasoning Error
+567,Irrelevant Explanation,Inverse Operation Error,Inversion Error,Inverse Operation Error
+568,Irrelevant Explanation,Unclassified Error,Whole Number Bias,Additive Reasoning Error
+569,Incomplete Calculation,Multiplication Error,Wrong Fraction,Incomplete Calculation
+570,Multiplication Error,Division Error,Division Error,Swapped Dividend
+571,Unclassified Error,Unclassified Error,Unclassified Error,Incomplete Calculation
+572,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+573,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+574,Inversion Error,Multiplication Error,Duplication Error,Denominator Only Change
+575,Duplication Error,Duplication Error,Multiplication Error,Duplication Error
+576,Unclassified Error,Incomplete Calculation,Multiplication Error,Unclassified Error
+577,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+578,Unclassified Error,Additive Reasoning Error,Additive Reasoning Error,Unclassified Error
+579,Unclassified Error,Wrong Term,Whole Number Bias,Incomplete Calculation
+580,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+581,Additive Reasoning Error,Additive Reasoning Error,Wrong Fraction,Additive Reasoning Error
+582,Tacking On Zeroes,Unclassified Error,Wrong Term,Positive/Negative Sign Error
+583,Multiplication Error,Definition Error,Whole Number Bias,Swapped Dividend
+584,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+585,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+586,Unclassified Error,Wrong Fraction,Incomplete Calculation,Incomplete Calculation
+587,Multiplication Error,Division Error,Swapped Dividend,Swapped Dividend
+588,Unclassified Error,Multiplication Error,Whole Number Bias,Multiplication Error
+589,Unclassified Error,Wrong Fraction,Whole Number Bias,Wrong Fraction
+590,Duplication Error,Duplication Error,Whole Number Bias,Duplication Error
+591,Unclassified Error,Incomplete Calculation,Swapped Dividend,Unclassified Error
+592,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+593,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+594,Wrong Term,Multiplication Error,Scale Factor Error,Multiplication Error
+595,Wrong Fraction,Wrong Term,Additive Reasoning Error,Wrong Term
+596,Unclassified Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+597,Unclassified Error,Multiplication Error,Whole Number Bias,Inversion Error
+598,Unclassified Error,Additive Reasoning Error,Adding Fractions Across,Additive Reasoning Error
+599,Unclassified Error,Unclassified Error,Scale Factor Error,Unclassified Error
+600,Wrong Fraction,Subtraction Error,Whole Number Bias,Incomplete Calculation
+601,Unclassified Error,Multiplication Error,Incomplete Calculation,Unclassified Error
+602,Unclassified Error,Incomplete Calculation,Whole Number Bias,Shorter Decimals Are Bigger
+603,Unclassified Error,Multiplication Error,Whole Number Bias,Unclassified Error
+604,Unclassified Error,Division Error,Additive Reasoning Error,Additive Reasoning Error
+605,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+606,Wrong Term,Wrong Term,Whole Number Bias,Incomplete Calculation
+607,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+608,Unclassified Error,Irrelevant Explanation,Whole Number Bias,Additive Reasoning Error
+609,Unclassified Error,Multiplication Error,Additive Reasoning Error,Unclassified Error
+610,Unclassified Error,Unclassified Error,Scale Factor Error,Unclassified Error
+611,Unclassified Error,Definition Error,Adding Fractions Across,Unclassified Error
+612,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+613,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+614,Unknowable Error,Unclassified Error,Unclassified Error,Definition Error
+615,Unclassified Error,Multiplication Error,Whole Number Bias,Multiplication Error
+616,Unclassified Error,Positive/Negative Sign Error,Inversion Error,Inverse Operation Error
+617,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+618,Subtraction Error,Subtraction Error,Whole Number Bias,Additive Reasoning Error
+619,Unclassified Error,Unclassified Error,Whole Number Bias,Whole Number Bias
+620,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+621,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+622,Unclassified Error,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+623,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+624,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+625,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+626,Unclassified Error,Unclassified Error,Unclassified Error,Denominator Only Change
+627,Unclassified Error,Division Error,Duplication Error,Additive Reasoning Error
+628,Wrong Term,Wrong Term,Unclassified Error,Unclassified Error
+629,Scale Factor Error,Unclassified Error,Whole Number Bias,Definition Error
+630,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+631,Subtraction Error,Subtraction Error,Whole Number Bias,Additive Reasoning Error
+632,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+633,Unclassified Error,Duplication Error,Duplication Error,Duplication Error
+634,Unclassified Error,Swapped Dividend,Swapped Dividend,Unclassified Error
+635,Subtraction Error,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error
+636,Swapped Dividend,Swapped Dividend,Duplication Error,Irrelevant Explanation
+637,Unclassified Error,Multiplication Error,Swapped Dividend,Scale Factor Error
+638,Multiplying By 4,Multiplication Error,Swapped Dividend,Unclassified Error
+639,Whole Number Bias,Wrong Fraction,Swapped Dividend,Whole Number Bias
+640,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+641,Unclassified Error,Swapped Dividend,Swapped Dividend,Unclassified Error
+642,Duplication Error,Duplication Error,Unclassified Error,Duplication Error
+643,Unclassified Error,Incomplete Calculation,Swapped Dividend,Division Error
+644,Unclassified Error,Unclassified Error,Unknowable Error,Denominator Only Change
+645,Inversion Error,Multiplication Error,Incomplete Calculation,Denominator Only Change
+646,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+647,Unclassified Error,Whole Number Bias,Additive Reasoning Error,Additive Reasoning Error
+648,Unclassified Error,Multiplication Error,Multiplication Error,Incomplete Calculation
+649,First Term Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+650,Wrong Fraction,Wrong Term,Multiplication Error,Incomplete Calculation
+651,Unclassified Error,Division Error,Swapped Dividend,Unclassified Error
+652,Irrelevant Explanation,Wrong Fraction,Whole Number Bias,Whole Number Bias
+653,Unclassified Error,Additive Reasoning Error,Incomplete Calculation,Unclassified Error
+654,Unclassified Error,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+655,Subtraction Error,Multiplication Error,Incomplete Calculation,Additive Reasoning Error
+656,Unclassified Error,Incomplete Calculation,Duplication Error,Incomplete Calculation
+657,Unknowable Error,Unclassified Error,Unknownable Error,Definition Error
+658,Unclassified Error,Incomplete Calculation,Incomplete Calculation,Unclassified Error
+659,Duplication Error,Duplication Error,Incomplete Calculation,Duplication Error
+660,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+661,Unclassified Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+662,Wrong Term,Wrong Term,Scale Factor Error,Incomplete Calculation
+663,Irrelevant Explanation,Whole Number Bias,Additive Reasoning Error,Additive Reasoning Error
+664,Denominator Only Change,Wrong Fraction,Unclassified Error,Adding Fractions Across
+665,Wrong Term,Wrong Term,Whole Number Bias,Incomplete Calculation
+666,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+667,Unclassified Error,Wrong Fraction,Definition Error,Denominator Only Change
+668,Unclassified Error,Division Error,Swapped Dividend,Division Error
+669,Not A Variable,Multiplication Error,Whole Number Bias,Irrelevant Explanation
+670,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+671,Unclassified Error,Definition Error,Division Error,Unclassified Error
+672,Unclassified Error,Subtraction Error,Additive Reasoning Error,Positive/Negative Sign Error
+673,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+674,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+675,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+676,Denominator Only Change,Wrong Fraction,Additive Reasoning Error,Adding Fractions Across
+677,Subtraction Error,Wrong Fraction,Additive Reasoning Error,Additive Reasoning Error
+678,Unclassified Error,Positive/Negative Sign Error,Incomplete Calculation,Positive/Negative Sign Error
+679,Unclassified Error,Unclassified Error,Whole Number Bias,Whole Numbers Are Larger
+680,Unclassified Error,Unclassified Error,Whole Number Bias,Swapped Dividend
+681,Unclassified Error,Unclassified Error,Whole Number Bias,Additive Reasoning Error
+682,Unclassified Error,Wrong Fraction,Additive Reasoning Error,Unclassified Error
+683,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unknowable Error
+684,Unclassified Error,Positive/Negative Sign Error,Subtraction Error,Positive/Negative Sign Error
+685,Not A Variable,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+686,Incomplete Calculation,Incomplete Calculation,Additive Reasoning Error,Incomplete Calculation
+687,Adding Fractions Across,Adding Fractions Across,Adding Fractions Across,Adding Fractions Across
+688,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+689,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+690,Irrelevant Explanation,Division Error,Scale Factor Error,Additive Reasoning Error
+691,Unclassified Error,Unclassified Error,Whole Number Bias,Whole Number Bias
+692,Whole Number Bias,Wrong Fraction,Whole Number Bias,Whole Number Bias
+693,Unclassified Error,Adding Fractions Across,Additive Reasoning Error,Adding Fractions Across
+694,Subtraction Error,Multiplication Error,Additive Reasoning Error,Additive Reasoning Error
+695,Unclassified Error,Irrelevant Explanation,Multiplication Error,Unclassified Error
+696,Inversion Error,Multiplication Error,Swapped Dividend,Multiplication Error
+697,Adding Fractions Across,Adding Fractions Across,Whole Number Bias,Adding Fractions Across
+698,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+699,Unclassified Error,Additive Reasoning Error,Unclassified Error,Subtraction Error
+700,Unknowable Error,Definition Error,Definition Error,Unclassified Error
+701,Unclassified Error,Wrong Fraction,Scale Factor Error,Additive Reasoning Error
+702,Wrong Term,Wrong Term,Scale Factor Error,Additive Reasoning Error
+703,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+704,Irrelevant Explanation,Division Error,Division Error,Unclassified Error
+705,Wrong Term,Wrong Term,Whole Number Bias,Incomplete Calculation
+706,Unclassified Error,Wrong Term,Scale Factor Error,Incomplete Calculation
+707,Unclassified Error,Division Error,Additive Reasoning Error,Unclassified Error
+708,Unclassified Error,Division Error,Swapped Dividend,Inversion Error
+709,Wrong Term,Wrong Term,Additive Reasoning Error,Unclassified Error
+710,Wrong Term,Incomplete Calculation,Additive Reasoning Error,Incomplete Calculation
+711,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+712,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+713,Tacking On Zeroes,Unclassified Error,Inversion Error,Positive/Negative Sign Error
+714,Swapped Dividend,Inverse Operation Error,Swapped Dividend,Inversion Error
+715,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+716,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+717,Unclassified Error,Unclassified Error,Whole Number Bias,Additive Reasoning Error
+718,Unclassified Error,Flip and Change Error,Whole Number Bias,Inversion Error
+719,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+720,Swapped Dividend,Swapped Dividend,Multiplication Error,Swapped Dividend
+721,Unclassified Error,Swapped Dividend,Wrong Fraction,Unclassified Error
+722,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+723,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+724,Unclassified Error,Positive/Negative Sign Error,Swapped Dividend,Positive/Negative Sign Error
+725,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+726,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+727,Scale Factor Error,Unclassified Error,Unclassified Error,Definition Error
+728,Unclassified Error,Subtraction Error,Additive Reasoning Error,Subtraction Error
+729,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+730,Whole Number Bias,Denominator Only Change,Whole Number Bias,Additive Reasoning Error
+731,Subtraction Error,Wrong Fraction,Additive Reasoning Error,Additive Reasoning Error
+732,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+733,Unclassified Error,Incomplete Calculation,Whole Number Bias,Wrong Term
+734,Inversion Error,Wrong Fraction,Incomplete Calculation,Denominator Only Change
+735,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+736,Flip and Change Error,Swapped Dividend,Swapped Dividend,Swapped Dividend
+737,Subtraction Error,Subtraction Error,Whole Number Bias,Additive Reasoning Error
+738,Unclassified Error,Unclassified Error,Irrelevant Explanation,Unclassified Error
+739,Unclassified Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+740,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+741,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+742,Tacking On Zeroes,Subtraction Error,Whole Number Bias,Positive/Negative Sign Error
+743,Not A Variable,Unclassified Error,Unclassified Error,Unclassified Error
+744,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+745,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+746,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+747,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+748,Unclassified Error,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+749,Unclassified Error,Wrong Term,Adding Unlike Terms,Incomplete Calculation
+750,Unclassified Error,Multiplication Error,Additive Reasoning Error,Division Error
+751,Unclassified Error,Division Error,Scale Factor Error,Incomplete Calculation
+752,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+753,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+754,Unclassified Error,Subtraction Error,Unclassified Error,Inverse Operation Error
+755,Longer Decimals Are Bigger,Whole Number Bias,Whole Number Bias,Whole Number Bias
+756,Unclassified Error,Irrelevant Explanation,Swapped Dividend,Additive Reasoning Error
+757,Positive/Negative Sign Error,Positive/Negative Sign Error,Positive/Negative Sign Error,Positive/Negative Sign Error
+758,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+759,Unclassified Error,Incomplete Calculation,Whole Number Bias,Unclassified Error
+760,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+761,Unclassified Error,Wrong Fraction,Whole Number Bias,Unclassified Error
+762,Unclassified Error,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+763,First Term Error,Wrong Term,Whole Number Bias,Additive Reasoning Error
+764,Unclassified Error,Wrong Fraction,Incomplete Calculation,Wrong Fraction
+765,Wrong Term,Wrong Term,Whole Number Bias,Incomplete Calculation
+766,Unclassified Error,Adding Fractions Across,Unclassified Error,Adding Fractions Across
+767,Inversion Error,Denominator Only Change,Additive Reasoning Error,Inversion Error
+768,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+769,Denominator Only Change,Wrong Fraction,Adding Like Terms,Adding Fractions Across
+770,Unclassified Error,Unclassified Error,Unclassified Error,Positive/Negative Sign Error
+771,Unclassified Error,Unclassified Error,Whole Number Bias,Base Rate Error
+772,Wrong Term,Wrong Term,Whole Number Bias,Incomplete Calculation
+773,Subtraction Error,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error
+774,Scale Factor Error,Definition Error,Unclassified Error,Base Rate Error
+775,Unclassified Error,Additive Reasoning Error,Adding Like Terms,Additive Reasoning Error
+776,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+777,First Term Error,Multiplication Error,Scale Factor Error,Whole Number Bias
+778,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+779,Unclassified Error,Multiplication Error,Additive Reasoning Error,Additive Reasoning Error
+780,Unclassified Error,Wrong Fraction,Whole Number Bias,Wrong Fraction
+781,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+782,Unclassified Error,Division Error,Additive Reasoning Error,Swapped Dividend
+783,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+784,Multiplication Error,Division Error,Whole Number Bias,Swapped Dividend
+785,Wrong Fraction,Multiplication Error,Whole Number Bias,Incomplete Calculation
+786,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+787,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+788,Denominator Only Change,Wrong Fraction,Adding Fractions Across,Additive Reasoning Error
+789,Unclassified Error,Tacking On Zeroes,Multiplication Error,Unclassified Error
+790,Incomplete Calculation,Incomplete Calculation,Inversion Error,Incomplete Calculation
+791,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+792,Unclassified Error,Irrelevant Explanation,Inversion Error,Unclassified Error
+793,Unclassified Error,Whole Number Bias,Whole Number Bias,Whole Number Bias
+794,Irrelevant Explanation,Wrong Fraction,Whole Number Bias,Unclassified Error
+795,Multiplication Error,Division Error,Swapped Dividend,Swapped Dividend
+796,Subtraction Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+797,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+798,Inversion Error,Inversion Error,Duplication Error,Inversion Error
+799,Unclassified Error,Wrong Fraction,Incomplete Calculation,Unclassified Error
+800,Unclassified Error,Wrong Fraction,Adding Fractions Across,Unclassified Error
+801,Inversion Error,Inversion Error,Whole Number Bias,Inversion Error
+802,Scale Factor Error,Unclassified Error,Whole Number Bias,Whole Number Bias
+803,Unclassified Error,Definition Error,Whole Number Bias,Irrelevant Explanation
+804,Unclassified Error,Positive/Negative Sign Error,Division Error,Positive/Negative Sign Error
+805,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+806,Unclassified Error,Additive Reasoning Error,Adding Unlike Terms,Adding Fractions Across
+807,Adding Fractions Across,Additive Reasoning Error,"Adding Like Terms (is not listed, but closely matches) - Adding Fractions Across (or) Incomplete Calculation",Adding Fractions Across
+808,Unclassified Error,Definition Error,Swapped Dividend,Division Error
+809,Adding Fractions Across,Additive Reasoning Error,Adding Fractions Across,Adding Fractions Across
+810,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+811,Unclassified Error,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+812,Unclassified Error,Whole Number Bias,Whole Numbers Are Larger,Whole Number Bias
+813,Unclassified Error,Incomplete Calculation,Whole Number Bias,Unclassified Error
+814,Unclassified Error,Wrong Fraction,Whole Number Bias,Whole Number Bias
+815,Wrong Term,Wrong Term,Whole Number Bias,Incomplete Calculation
+816,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Definition Error
+817,Wrong Fraction,Wrong Term,Inversion Error,Wrong Term
+818,Unclassified Error,Division Error,Unclassified Error,Unclassified Error
+819,Unclassified Error,Swapped Dividend,Irrelevant Explanation,Swapped Dividend
+820,Subtraction Error,Additive Reasoning Error,Adding Fractions Across,Additive Reasoning Error
+821,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+822,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+823,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+824,Positive/Negative Sign Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+825,Tacking On Zeroes,Subtraction Error,Additive Reasoning Error,Whole Number Bias
+826,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+827,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+828,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+829,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+830,Additive Reasoning Error,Additive Reasoning Error,Swapped Dividend,Additive Reasoning Error
+831,Unclassified Error,Positive/Negative Sign Error,Definition Error,Positive/Negative Sign Error
+832,Wrong Fraction,Wrong Term,Whole Number Bias,Incomplete Calculation
+833,Duplication Error,Duplication Error,Incomplete Calculation,Duplication Error
+834,Unclassified Error,Wrong Term,Whole Number Bias,Wrong Term
+835,Duplication Error,Duplication Error,Inversion Error,Duplication Error
+836,Unclassified Error,Interior Angle Error,Definition Error,Interior Angle Error
+837,Tacking On Zeroes,Positive/Negative Sign Error,Inversion Error,Positive/Negative Sign Error
+838,Unclassified Error,Duplication Error,Whole Number Bias,Duplication Error
+839,Unclassified Error,Additive Reasoning Error,Whole Number Bias,Unclassified Error
+840,Whole Number Bias,Wrong Fraction,Whole Number Bias,Whole Number Bias
+841,Unclassified Error,Inverse Operation Error,Incomplete Calculation,Whole Number Bias
+842,Unclassified Error,Unclassified Error,Scale Factor Error,Unclassified Error
+843,Irrelevant Explanation,Whole Number Bias,Additive Reasoning Error,Additive Reasoning Error
+844,Flip and Change Error,Definition Error,Whole Number Bias,Unclassified Error
+845,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+846,Unclassified Error,Multiplication Error,Whole Number Bias,Additive Reasoning Error
+847,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+848,Not A Variable,Unclassified Error,Whole Number Bias,Unclassified Error
+849,Positive/Negative Sign Error,Positive/Negative Sign Error,Additive Reasoning Error,Inverse Operation Error
+850,Unclassified Error,Whole Number Bias,Additive Reasoning Error,Unclassified Error
+851,Additive Reasoning Error,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+852,Unclassified Error,Additive Reasoning Error,Adding Fractions Across,Additive Reasoning Error
+853,Unclassified Error,Multiplication Error,Swapped Dividend,Unclassified Error
+854,Unclassified Error,Unclassified Error,Adding Fractions Across,Adding Fractions Across
+855,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+856,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+857,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+858,Wrong Fraction,Wrong Term,Swapped Dividend,Swapped Dividend
+859,Whole Number Bias,Wrong Fraction,Incomplete Calculation,Whole Number Bias
+860,Unclassified Error,Whole Number Bias,Swapped Dividend,Unclassified Error
+861,Adding Unlike Terms,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+862,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+863,Unknowable Error,Interior Angle Error,Definition Error,Definition Error
+864,Incomplete Calculation,Incomplete Calculation,Wrong Fraction,Incomplete Calculation
+865,Unclassified Error,Positive/Negative Sign Error,Positive/Negative Sign Error,Positive/Negative Sign Error
+866,Duplication Error,Duplication Error,Incomplete Calculation,Duplication Error
+867,Unknowable Error,Interior Angle Error,Unclassified Error,Definition Error
+868,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Unknowable Error
+869,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+870,Subtraction Error,Additive Reasoning Error,Whole Number Bias,Additive Reasoning Error
+871,Unclassified Error,Wrong Term,Unclassified Error,Additive Reasoning Error
+872,Swapped Dividend,Swapped Dividend,Swapped Dividend,Swapped Dividend
+873,Tacking On Zeroes,Unclassified Error,Unclassified Error,Unclassified Error
+874,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation,Incomplete Calculation
+875,Unclassified Error,Multiplication Error,Swapped Dividend,Swapped Dividend
+876,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+877,Unclassified Error,Multiplication Error,Swapped Dividend,Swapped Dividend
+878,Unclassified Error,Wrong Term,Additive Reasoning Error,Wrong Fraction
+879,Subtraction Error,Additive Reasoning Error,Adding Fractions Across,Additive Reasoning Error
+880,Unclassified Error,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+881,Irrelevant Explanation,Whole Number Bias,Whole Number Bias,Unclassified Error
+882,Wrong Term,Wrong Term,Scale Factor Error,Incomplete Calculation
+883,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+884,Unclassified Error,Whole Number Bias,Whole Number Bias,Base Rate Error
+885,Not A Variable,Division Error,Whole Number Bias,Unclassified Error
+886,Unclassified Error,Additive Reasoning Error,Additive Reasoning Error,Additive Reasoning Error
+887,Definition Error,Definition Error,Whole Number Bias,Definition Error
+888,Subtraction Error,Subtraction Error,Adding Fractions Across,Additive Reasoning Error
+889,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+890,Positive/Negative Sign Error,Additive Reasoning Error,Whole Number Bias,Whole Number Bias
+891,Tacking On Zeroes,Unclassified Error,Additive Reasoning Error,Positive/Negative Sign Error
+892,Wrong Term,Wrong Term,Subtraction Error,Scale Factor Error
+893,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+894,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Whole Number Bias
+895,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+896,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+897,Unclassified Error,Unclassified Error,Additive Reasoning Error,Unclassified Error
+898,Wrong Fraction,Wrong Term,Whole Number Bias,Incomplete Calculation
+899,Unclassified Error,Unclassified Error,Adding Fractions Across,Unclassified Error
+900,Unclassified Error,Unclassified Error,Irrelevant Explanation,Unclassified Error
+901,Whole Numbers Are Larger,Whole Number Bias,Whole Number Bias,Whole Number Bias
+902,Incomplete Calculation,Incomplete Calculation,Whole Number Bias,Incomplete Calculation
+903,Unclassified Error,Wrong Fraction,Whole Number Bias,Division Error
+904,Unclassified Error,Wrong Fraction,Additive Reasoning Error,Additive Reasoning Error
+905,Adding Fractions Across,Adding Fractions Across,Adding Fractions Across,Adding Fractions Across
+906,Unclassified Error,Positive/Negative Sign Error,Whole Number Bias,Positive/Negative Sign Error
+907,Unclassified Error,Unclassified Error,Whole Number Bias,Unclassified Error
+908,Unclassified Error,Division Error,Swapped Dividend,Swapped Dividend
+909,Unclassified Error,Duplication Error,Inversion Error,Duplication Error
+910,Unclassified Error,Unclassified Error,Unclassified Error,Incomplete Calculation
+911,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+912,Unclassified Error,Wrong Fraction,Additive Reasoning Error,Whole Number Bias
+913,Duplication Error,Duplication Error,Duplication Error,Duplication Error
+914,Unclassified Error,Unclassified Error,Incomplete Calculation,Unclassified Error
+915,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
+916,Wrong Term,Wrong Term,Additive Reasoning Error,Incomplete Calculation
+917,Scale Factor Error,Definition Error,Definition Error,Definition Error
+918,Unclassified Error,Unclassified Error,Unclassified Error,Unclassified Error
