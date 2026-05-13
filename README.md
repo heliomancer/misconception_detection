@@ -8,7 +8,7 @@
 This project serves as the machine learning backbone for an Intelligent Tutoring System (ITS). The goal is to accurately diagnose the specific mathematical misconception behind a student's incorrect answer based on text inputs.
 
 **Dataset:** [EEDI MAP - Charting Student Math Misunderstandings](https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/data). 
-*Note: This dataset uses a strict taxonomy of 35 specific misconception classes (e.g., "Additive Reasoning Error", "Swapped Dividend"). It is highly imbalanced, with ~50% of the errors being 'Unclassified Error', requiring robust feature representation and handling of rare classes.*
+
 
 **Inputs:**
 1. Math Problem Text
@@ -35,6 +35,15 @@ The repository is designed with a modern MLOps CLI architecture, separating data
 ├── pyproject.toml              <- Dependency definitions (uv)
 └── README.md
 ```
+
+## Data Preparation & Filtering (`prep_data.py`)
+
+The raw dataset (`map_train.csv`) requires strict preprocessing before it can be used for embeddings or LLM evaluation. The `prep_data.py` module handles this with the following pipeline:
+
+1. **Dynamic Relabeling:** Target classes are mapped to human-readable strings using modular YAML configurations located in `config/`. This allows quick swapping of label semantics for LLM prompt engineering.
+2. **Isolating Misconceptions:** Rows labeled `True_Correct` or `False_Correct` are dropped. The pipeline strictly trains and evaluates on incorrect answers. Null values are mapped to `Unclassified_Error`.
+3. **Handling Rare Classes:** To ensure stable Cross-Validation, ultra-rare classes (fewer than 10 samples) are removed. 
+4. **Stratified Splitting:** The final cleaned data is split into a 95% Training set and a 5% Hold-out Validation set that used for both supervised solution and LLM evaluation.
 
 ## Supervised Solution (Embeddings + CatBoost Classifier)
 
