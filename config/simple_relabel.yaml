@@ -1,4 +1,3 @@
-rename_dict = {
     'Unclassified_Error': 'Unclassified Error',
     'Incomplete': 'Incomplete Calculation',
     'WNB': 'Whole Number Bias',
@@ -35,4 +34,3 @@ rename_dict = {
     'Multiplying_by_4': 'Multiplying By 4',
     'Certainty': 'Certainty Bias',
     'Scale': 'Scale Factor Error'
-}

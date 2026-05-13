@@ -1,4 +1,3 @@
-semantic_chatgpt_dict = {
     # --- Meta / weak signals ---
     'Unclassified_Error': 'Unclear Reasoning',
     'Not_A_Misconception': 'Not A Misconception',
@@ -54,4 +53,3 @@ semantic_chatgpt_dict = {
     'Definition': 'Incorrect Definition Recall',
     'Ignores_zeroes': 'Place Value Misunderstanding',
     'Multiplying_by_4': 'Incorrect Constant Multiplication Pattern'
-}

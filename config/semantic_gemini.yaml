@@ -1,4 +1,3 @@
-semantic_gemini_dict = {
     # The Unclassified / Vague Splits
     'Unclassified_Error': 'Vague Explanation or Unclassified Error',
     'Not_A_Misconception': 'Not A Misconception',
@@ -48,5 +47,4 @@ semantic_gemini_dict = {
     'Definition': 'Misunderstanding the Definition of a Regular Polygon',
     'Interior': 'Confusing Interior Angle Sum Formulas',
     'Certainty': 'Confusing High Probability with Absolute Certainty',
-    'Scale': 'Misunderstanding the 0 to 1 Probability Scale',
-}
+    'Scale': 'Misunderstanding the 0 to 1 Probability Scale'

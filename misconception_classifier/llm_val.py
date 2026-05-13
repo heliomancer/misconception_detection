@@ -117,11 +117,11 @@ def build_payload(strategy: str, problem: str, ans: str, exp: str, classes_str: 
 # ==========================================
 if __name__ == "__main__":
     
-    # 1. Initialize dependencies
+    # Initialize data
     client = get_client()
     remaining_df, full_df = get_remaining_data(VAL_DATA_PATH, RESULTS_PATH)
     
-    # Generate the class string dynamically (if required by your templates)
+    # Generate the class string dynamically (if required by templates)
     valid_classes_str = "\n".join([f"- {c}" for c in full_df['Misconception'].unique()])
 
     print(f"\nBeginning Groq queries. (USE_SYSTEM_PROMPT = {USE_SYSTEM_PROMPT})")
@@ -130,7 +130,7 @@ if __name__ == "__main__":
     new_rows_this_session =[]
     stop_processing = False
 
-    # 2. Main Processing Loop
+    # Main Processing Loop
     for index, row in remaining_df.iterrows():
         if stop_processing:
             break
@@ -154,7 +154,7 @@ if __name__ == "__main__":
             'True_Misconception': row['Misconception']
         }
 
-        # 3. Query Models Loop
+        # Query Models Loop
         for model_name in GROQ_LARGE:  # Fixed lowercase groq_large to uppercase GROQ_LARGE
             time.sleep(3)  # Space out requests to respect standard API limits
             
@@ -198,17 +198,17 @@ if __name__ == "__main__":
                 stop_processing = True
                 break
 
-        # 4. Check if we had to abort mid-row
+        # Check if we had to abort mid-row
         if stop_processing:
             print("Aborting before saving this incomplete row.")
             break 
 
-        # 5. Row completed successfully! Add to buffer.
+        # Row completed successfully! Add to buffer.
         new_rows_this_session.append(current_result)
         print(f"Processed row index {index} successfully across models.")
 
-        # 6. Periodically save to disk (every 5 rows)
-        if len(new_rows_this_session) >= 5:
+        # Periodically save to disk 
+        if len(new_rows_this_session) >= 0:
             temp_df = pd.DataFrame(new_rows_this_session)
             # If file exists, append without headers. Otherwise, create new with headers.
             write_mode = 'a' if os.path.exists(RESULTS_PATH) else 'w'
