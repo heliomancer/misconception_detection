@@ -1,0 +1,52 @@
+semantic_gemini_dict = {
+    # The Unclassified / Vague Splits
+    'Unclassified_Error': 'Vague Explanation or Unclassified Error',
+    'Not_A_Misconception': 'Not A Misconception',
+
+    # Fraction & Calculation Errors
+    'Incomplete': 'Incomplete Calculation or Failing to Simplify',
+    'WNB': 'Treating Fraction Parts as Independent Whole Numbers',
+    'Adding_across': 'Adding Numerators and Denominators Straight Across',
+    'Denominator-only_change': 'Finding Common Denominator but Forgetting to Scale Numerators',
+    'Incorrect_equivalent_fraction_addition': 'Adding Denominators After Finding the Common Denominator',
+    'Duplication': 'Multiplying Both Numerator and Denominator by the Whole Number',
+    'Inversion': 'Multiplying Whole Number by Denominator Instead of Numerator',
+    'FlipChange': 'Inverting the Wrong Fraction in Division',
+    'SwapDividend': 'Reversing the Order of Division to Divide by the Smaller Number',
+    'Mult': 'Multiplying Instead of Dividing',
+    'Wrong_Operation': 'Treating Fraction Multiplication as Mixed Number Addition',
+    'Division': 'Dividing Instead of Multiplying to Find a Fraction Of an Amount',
+    'Subtraction': 'Subtracting Instead of Multiplying to Find a Fraction Of an Amount',
+
+    # Algebra & Equation Errors
+    'Not_variable': 'Treating Variables as Place Value Digits',
+    'Adding_terms': 'Treating Algebraic Coefficients as Addition',
+    'Inverse_operation': 'Applying the Wrong Inverse Operation',
+
+    # Reading Comprehension & Irrelevant Facts
+    'Wrong_Fraction': 'Solving for the Given Item Instead of the Requested Item',
+    'Wrong_fraction': 'Solving for the Given Item Instead of the Requested Item',
+    'Irrelevant': 'Using Irrelevant Mathematical Facts or Surface Features',
+
+    # Decimals & Positives/Negatives
+    'Whole_numbers_larger': 'Believing Whole Numbers are Automatically Larger than Decimals',
+    'Longer_is_bigger': 'Believing Longer Decimals are Larger',
+    'Shorter_is_bigger': 'Believing Shorter Decimals are Larger',
+    'Ignores_zeroes': 'Ignoring Decimal Placeholder Zeroes',
+    'Positive': 'Overgeneralizing Two Negatives Make a Positive to Addition and Subtraction',
+    'Tacking': 'Tacking On Signs After Absolute Value Calculation',
+
+    # Sequences & Proportions
+    'Wrong_term': 'Calculating the Next Term Instead of the Requested Nth Term',
+    'Firstterm': 'Multiplying Term Number by First Term Instead of Using Sequence Rule',
+    'Additive': 'Using Additive Reasoning instead of Multiplicative Proportions',
+    'Base_rate': 'Treating Inverse Proportion as Direct Proportion by Dividing',
+    'Multiplying_by_4': 'Applying Direct Scaling to an Inverse Proportion Problem',
+
+    # Geometry & Probability
+    'Unknowable': 'Believing Regular Polygon Properties Cannot Be Found From One Angle',
+    'Definition': 'Misunderstanding the Definition of a Regular Polygon',
+    'Interior': 'Confusing Interior Angle Sum Formulas',
+    'Certainty': 'Confusing High Probability with Absolute Certainty',
+    'Scale': 'Misunderstanding the 0 to 1 Probability Scale',
+}

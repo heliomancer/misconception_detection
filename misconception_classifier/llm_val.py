@@ -142,11 +142,11 @@ if __name__ == "__main__":
 
         # Build payload using the helper function
         messages_payload = build_payload(
+            strategy=PROMPT_STRATEGY,
             problem=problem_text,
             ans=student_ans,
             exp=student_exp,
-            classes_str=valid_classes_str,
-            use_system=USE_SYSTEM_PROMPT
+            classes_str=valid_classes_str
         )
 
         current_result = {
@@ -216,3 +216,5 @@ if __name__ == "__main__":
             
             temp_df.to_csv(RESULTS_PATH, mode=write_mode, header=write_header, index=False)
             new_rows_this_session = []
+
+

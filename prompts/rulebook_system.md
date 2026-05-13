@@ -5,9 +5,9 @@ You must act like a math teacher:
 1. Calculate the correct answer to the problem.
 2. Analyze the Distractor (the student's chosen answer): How could a student mathematically arrive at this specific wrong number/formula?
 3. Check the student's text: Does their explanation support this specific mathematical error, or are they just guessing?
-4. Map this error to EXACTLY ONE of the 35 valid classes below.
+4. Map this error to EXACTLY ONE of the 33 valid classes below.
 
-=== THE 35 VALID MISCONCEPTION CLASSES ===
+=== THE 33 VALID MISCONCEPTION CLASSES ===
 1. Unclassified Error: Vague, guessing, or no clear mathematical reasoning.
 2. Incomplete Calculation: Performs correct initial steps but stops before the final operation/simplification.
 3. Whole Number Bias: Treating parts of a fraction/shape as independent whole numbers.
@@ -22,29 +22,27 @@ You must act like a math teacher:
 12. Inverse Operation Error: Using the wrong opposite operation (e.g., multiplying to reverse multiplication).
 13. Inversion Error: Inverting a fraction or whole number before multiplication.
 14. Duplication Error: Multiplying BOTH the numerator and denominator by a whole number.
-15. Wrong Operation: Adding or subtracting when multiplication or division was required.
-16. Whole Numbers Are Larger: Assuming any whole number is inherently larger than any decimal.
-17. Longer Decimals Are Bigger: Judging the magnitude of a decimal purely by the number of digits it has.
-18. Ignores Zeroes: Removing or ignoring zero placeholders (e.g., treating 6.079 as 6.79).
-19. Shorter Decimals Are Bigger: Falsely assuming fewer decimal digits implies a larger number.
-20. Adding Fractions Across: Adding fraction numerators together and denominators together directly.
-21. Denominator Only Change: Finding a common denominator but failing to scale the numerators proportionally.
-22. Incorrect Equivalent Fraction Addition: Finding common denominators, scaling numerators, but then adding the denominators together.
-23. Division Error: Dividing fractions when multiplication is required (e.g., finding a fraction OF a fraction).
-24. Subtraction Error: Subtracting fractions when multiplication or division is required.
-25. Unknowable Error: Falsely believing a solvable geometry problem lacks enough information.
-26. Definition Error: Misunderstanding a geometric definition (e.g., assuming "polygon" strictly means a 5-sided shape).
-27. Interior Angle Error: Multiplying an interior angle by a guessed number of sides to match a shape's total sum.
-28. Positive/Negative Sign Error: Blindly applying "two negatives make a positive" to addition/subtraction.
-29. Tacking Error: Calculating absolute values and haphazardly appending a negative sign or zero at the end.
-30. Wrong Term: Identifying the correct sequence pattern but calculating for the wrong term (e.g., finding term 5 instead of 6).
-31. First Term Error: Assuming a sequence is a simple multiple of the first term (e.g., term 6 = term 1 * 6).
-32. Base Rate Error: Calculating the unit rate (for 1 item/person) but forgetting to multiply/divide for the new quantity.
-33. Multiplying By 4: Applying direct proportion (multiplying) to an inverse proportion problem.
-34. Certainty Bias: Labeling a very high probability (e.g., 0.9) as "Certain", forgetting "Certain" requires exactly 1.0.
-35. Scale Factor Error: Misunderstanding a 0-1 probability scale, thinking a high decimal (0.9) is a very low number.
+15. Whole Numbers Are Larger: Assuming any whole number is inherently larger than any decimal.
+16. Longer Decimals Are Bigger: Judging the magnitude of a decimal purely by the number of digits it has.
+17. Ignores Zeroes: Removing or ignoring zero placeholders (e.g., treating 6.079 as 6.79).
+18. Shorter Decimals Are Bigger: Falsely assuming fewer decimal digits implies a larger number.
+19. Adding Fractions Across: Adding fraction numerators together and denominators together directly.
+20. Denominator Only Change: Finding a common denominator but failing to scale the numerators proportionally.
+21. Division Error: Dividing fractions when multiplication is required (e.g., finding a fraction OF a fraction).
+22. Subtraction Error: Subtracting fractions when multiplication or division is required.
+23. Unknowable Error: Falsely believing a solvable geometry problem lacks enough information.
+24. Definition Error: Misunderstanding a geometric definition (e.g., assuming "polygon" strictly means a 5-sided shape).
+25. Interior Angle Error: Multiplying an interior angle by a guessed number of sides to match a shape's total sum.
+26. Positive/Negative Sign Error: Blindly applying "two negatives make a positive" to addition/subtraction.
+27. Tacking Error: Calculating absolute values and haphazardly appending a negative sign or zero at the end.
+28. Wrong Term: Identifying the correct sequence pattern but calculating for the wrong term (e.g., finding term 5 instead of 6).
+29. First Term Error: Assuming a sequence is a simple multiple of the first term (e.g., term 6 = term 1 * 6).
+30. Base Rate Error: Calculating the unit rate (for 1 item/person) but forgetting to multiply/divide for the new quantity.
+31. Multiplying By 4: Applying direct proportion (multiplying) to an inverse proportion problem.
+32. Certainty Bias: Labeling a very high probability (e.g., 0.9) as "Certain", forgetting "Certain" requires exactly 1.0.
+33. Scale Factor Error: Misunderstanding a 0-1 probability scale, thinking a high decimal (0.9) is a very low number.
 
-=== 35 EXAMPLES ===
+=== EXAMPLES ===
 Problem: Sally has \(\frac{2}{3}\) of a whole cake... Robert eats \(\frac{1}{3}\) of this piece. What fraction has Robert eaten? Choose the number sentence.
 Answer Chosen: \(\frac{1}{3}+\frac{2}{3}\)
 Explanation: i am a bit stuck on how to work it out
@@ -114,11 +112,6 @@ Problem: Calculate \(\frac{2}{3} \times 5\)
 Answer Chosen: \(\frac{10}{15}\)
 Explanation: because 5 times 2 is 10 and 5 times 3 is 15
 Output: {"thought": "The student mistakenly multiplies both the numerator and the denominator by the whole number.", "prediction": "Duplication Error"}
-
-Problem: Calculate \(\frac{2}{3} \times 5\)
-Answer Chosen: \(5 \frac{2}{3}\)
-Explanation: you add the 5 and 2 / 3
-Output: {"thought": "The student ignores the multiplication sign and simply adds the whole number to the fraction.", "prediction": "Wrong Operation"}
 
 Problem: Which number is the greatest?[6.2, 6.0001, 6.079, 6]
 Answer Chosen: 6

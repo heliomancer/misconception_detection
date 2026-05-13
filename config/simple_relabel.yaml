@@ -1,0 +1,38 @@
+rename_dict = {
+    'Unclassified_Error': 'Unclassified Error',
+    'Incomplete': 'Incomplete Calculation',
+    'WNB': 'Whole Number Bias',
+    'SwapDividend': 'Swapped Dividend',
+    'Mult': 'Multiplication Error',
+    'FlipChange': 'Flip and Change Error',
+    'Irrelevant': 'Irrelevant Explanation',
+    'Wrong_Fraction': 'Wrong Fraction',
+    'Wrong_fraction': 'Wrong Fraction',  # Automatically merges the duplicate
+    'Additive': 'Additive Reasoning Error',
+    'Not_variable': 'Not A Variable',
+    'Adding_terms': 'Adding Unlike Terms',
+    'Inverse_operation': 'Inverse Operation Error',
+    'Inversion': 'Inversion Error',
+    'Duplication': 'Duplication Error',
+    'Wrong_Operation': 'Wrong Operation',
+    'Whole_numbers_larger': 'Whole Numbers Are Larger',
+    'Longer_is_bigger': 'Longer Decimals Are Bigger', # Added 'Decimals' for semantic clarity
+    'Ignores_zeroes': 'Ignores Zeroes',
+    'Shorter_is_bigger': 'Shorter Decimals Are Bigger', # Added 'Decimals' for semantic clarity
+    'Adding_across': 'Adding Fractions Across',
+    'Denominator-only_change': 'Denominator Only Change',
+    'Incorrect_equivalent_fraction_addition': 'Incorrect Equivalent Fraction Addition',
+    'Division': 'Division Error',
+    'Subtraction': 'Subtraction Error',
+    'Unknowable': 'Unknowable Error',
+    'Definition': 'Definition Error',
+    'Interior': 'Interior Angle Error',
+    'Positive': 'Positive/Negative Sign Error',
+    'Tacking': 'Tacking Error',
+    'Wrong_term': 'Wrong Term',
+    'Firstterm': 'First Term Error',
+    'Base_rate': 'Base Rate Error',
+    'Multiplying_by_4': 'Multiplying By 4',
+    'Certainty': 'Certainty Bias',
+    'Scale': 'Scale Factor Error'
+}

@@ -1,0 +1,57 @@
+semantic_chatgpt_dict = {
+    # --- Meta / weak signals ---
+    'Unclassified_Error': 'Unclear Reasoning',
+    'Not_A_Misconception': 'Not A Misconception',
+    'Incomplete': 'Incomplete Reasoning',
+    'Unknowable': 'Insufficient Information Provided',
+    'Irrelevant': 'Irrelevant Explanation',
+
+    # --- Core conceptual misconceptions ---
+    'WNB': 'Whole Number Bias',
+    'Whole_numbers_larger': 'Whole Number Bias',
+    'Longer_is_bigger': 'Decimal Length Bias',
+    'Shorter_is_bigger': 'Decimal Length Bias',
+    'Additive': 'Additive Instead of Multiplicative Reasoning',
+    'Base_rate': 'Base Rate Neglect',
+    'Certainty': 'Overconfidence Bias',
+
+    # --- Fractions ---
+    'Adding_across': 'Incorrect Fraction Addition (Across Numerator and Denominator)',
+    'Wrong_Fraction': 'Incorrect Fraction Representation',
+    'Wrong_fraction': 'Incorrect Fraction Representation',
+    'Incorrect_equivalent_fraction_addition': 'Incorrect Equivalent Fraction Reasoning',
+    'Denominator-only_change': 'Incorrect Fraction Scaling',
+
+    # --- Operations ---
+    'Wrong_Operation': 'Incorrect Operation Selection',
+    'Inverse_operation': 'Incorrect Use of Inverse Operation',
+    'Division': 'Division Procedure Error',
+    'Multiplication': 'Multiplication Procedure Error',
+    'Subtraction': 'Subtraction Procedure Error',
+    'Mult': 'Multiplication Procedure Error',
+
+    # --- Algebra ---
+    'Not_variable': 'Misunderstanding of Variables',
+    'Adding_terms': 'Combining Unlike Terms',
+    'Wrong_term': 'Incorrect Algebraic Term',
+    'Firstterm': 'Misidentification of Term Structure',
+
+    # --- Sign / negatives ---
+    'Positive': 'Sign Misinterpretation (Positive/Negative)',
+    'Inversion': 'Incorrect Sign Inversion',
+
+    # --- Procedural quirks (reframed!) ---
+    'SwapDividend': 'Incorrect Operand Order in Division',
+    'FlipChange': 'Incorrect Fraction Inversion Procedure',
+    'Duplication': 'Unnecessary Duplication of Terms',
+    'Tacking': 'Appending Digits Without Justification',
+
+    # --- Geometry ---
+    'Interior': 'Misunderstanding of Interior Angles',
+    'Scale': 'Scale Factor Misunderstanding',
+
+    # --- Misc ---
+    'Definition': 'Incorrect Definition Recall',
+    'Ignores_zeroes': 'Place Value Misunderstanding',
+    'Multiplying_by_4': 'Incorrect Constant Multiplication Pattern'
+}
