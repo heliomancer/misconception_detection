@@ -1,50 +1,42 @@
 # misconception_classifier/train.py
 import argparse
 import json
+import logging
+import os
 import numpy as np
 import pandas as pd
-import mlflow
-import os
 from catboost import CatBoostClassifier, Pool
 
-HARDWARE = "GPU" #or CPU
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
-def main(features_npy, labels_csv, params_json, output_model):
-    print(f"Loading data from {features_npy} and {labels_csv}...")
-    X_train = np.load(features_npy)
-    df_train = pd.read_csv(labels_csv)
+def main(args):
+    logging.info(f"Loading training data from {args.features} and {args.labels}...")
+    X_train = np.load(args.features)
+    df_train = pd.read_csv(args.labels)
     y_train = df_train['Misconception'].reset_index(drop=True)
 
-    print(f"Loading parameters from {params_json}...")
-    with open(params_json, 'r') as f:
+    logging.info(f"Loading hyperparameters from {args.params}...")
+    with open(args.params, 'r') as f:
         best_params = json.load(f)
 
-    # Set up MLflow to track the final training run
-    mlflow.set_experiment("Math_Misconception_Training")
-    with mlflow.start_run(run_name="Final_Model_Train"):
-        # Log the chosen parameters
-        mlflow.log_params(best_params)
+    # Convert to CatBoost Pool
+    train_pool = Pool(X_train, y_train)
 
-        train_pool = Pool(X_train, y_train)
+    # Initialize model with best params
+    model = CatBoostClassifier(
+        **best_params,
+        loss_function="MultiClass",
+        task_type="GPU" if args.use_gpu else "CPU",
+        verbose=100  # Print progress
+    )
 
-        # Initialize model with best params + standard fixed params
-        model = CatBoostClassifier(
-            **best_params,
-            loss_function="MultiClass",
-            task_type=HARDWARE, # Change to GPU if executing on a CUDA-enabled machine
-            verbose=100      # Print every 100th iteration to monitor progress
-        )
+    logging.info("Fitting final CatBoost model on full training set...")
+    model.fit(train_pool)
 
-        print("Training final model...")
-        model.fit(train_pool)
-
-        # 1. Save model locally as an artifact
-        os.makedirs(os.path.dirname(output_model), exist_ok=True)
-        model.save_model(output_model)
-        print(f"Model saved to {output_model}")
-
-        # 2. Log model to MLflow registry
-        mlflow.catboost.log_model(model, artifact_path="catboost_model")
+    # Save model locally as an artifact
+    os.makedirs(os.path.dirname(args.output_model), exist_ok=True)
+    model.save_model(args.output_model)
+    logging.info(f"Final Model successfully saved to {args.output_model}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -52,5 +44,8 @@ if __name__ == "__main__":
     parser.add_argument("--labels", required=True, help="Path to train .csv labels")
     parser.add_argument("--params", required=True, help="Path to best_params.json")
     parser.add_argument("--output_model", required=True, help="Path to save output .cbm file")
+    
+    parser.add_argument("--use_gpu", action="store_true", help="Pass this flag to use GPU")
+    
     args = parser.parse_args()
-    main(args.features, args.labels, args.params, args.output_model)
+    main(args)
