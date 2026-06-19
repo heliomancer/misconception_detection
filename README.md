@@ -18,6 +18,7 @@ This project serves as the machine learning backbone for an Intelligent Tutoring
 ## 2. 📁 Project Structure
 The repository is designed with a modern MLOps CLI architecture, separating data, configurations, and independent execution modules.
 
+```text
 .
 ├── config/                             <- .yaml configs for relabeling and semantic matching
 │   ├── semantic_chatgpt.yaml
@@ -45,6 +46,7 @@ The repository is designed with a modern MLOps CLI architecture, separating data
 ├── Makefile                            <- Command orchestrator for the pipeline
 ├── pyproject.toml                      <- Dependency definitions (uv)
 └── README.md
+```
 
 ## 3. 🛠 Data Preparation & Filtering (`prep_data.py`)
 
