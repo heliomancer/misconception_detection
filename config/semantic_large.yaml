@@ -1,0 +1,48 @@
+    # The Unclassified / Vague Splits
+    'Unclassified_Error': 'Vague Explanation, guessing, or Unclassified Error. The student explicitly states they do not know how to solve it, guessed, or provides no mathematical reasoning (e.g., "I am stuck", "I guessed", "not sure how to explain").',
+
+    # Fraction & Calculation Errors
+    'Incomplete': 'Incomplete Calculation or Failing to Simplify. The student correctly identifies the initial steps or fraction (e.g., finding 3 out of 9 total) but stops before completing the final operation or simplifying the fraction to its lowest terms.',
+    'WNB': 'Whole Number Bias. Treating parts of a fraction or shape as independent whole numbers. Ignoring the denominator or the whole, and just counting the shaded or unshaded parts as standalone numbers.',
+    'Adding_across': 'Adding Fractions Across. Adding the numerators together and the denominators together straight across (e.g., "add the top and add the bottom", or 1+2=3 and 3+5=8).',
+    'Denominator-only_change': 'Denominator Only Change. Correctly finding a common denominator but forgetting to scale the numerators proportionally, simply adding the original top numbers together.',
+    'Incorrect_equivalent_fraction_addition': 'Incorrect Equivalent Fraction Addition. Correctly finding the common denominator and scaling numerators, but erroneously adding the bottom denominators together as well.',
+    'Duplication': 'Duplication Error. Mistakenly multiplying BOTH the numerator and denominator by the whole number, instead of just the numerator (e.g., doing 2x5 and 3x5).',
+    'Inversion': 'Inversion Error. Incorrectly inverting or flipping a whole number into a unit fraction before multiplying (e.g., turning 5 into 1/5 when multiplying).',
+    'FlipChange': 'Flip and Change Error. Incorrectly applying the Keep-Change-Flip rule for fraction division by inverting the wrong fraction or confusing the division process entirely.',
+    'SwapDividend': 'Swapped Dividend. Reversing the order of division to make it easier, such as dividing the larger denominator by the numerator or whole number (e.g., doing 6 divided by 2 to get 3 instead of 1/2 divided by 6).',
+    'Mult': 'Multiplication Error. Multiplying instead of dividing. Mistakenly taking a fraction "of" a number by halving or multiplying (e.g., treating 1/2 divided by 6 as "half of 6 is 3").',
+    'Wrong_Operation': 'Wrong Operation. Adding or subtracting a whole number and a fraction when multiplication or division was explicitly required, simply pushing the numbers together into a mixed number.',
+    'Division': 'Division Error. Dividing instead of multiplying to find a fraction of an amount. Seeing phrases like "a fraction of" and incorrectly assuming it means to divide.',
+    'Subtraction': 'Subtraction Error. Subtracting fractions when multiplication or division is required. Using word-problem keywords like "eats" or "takes away" to mistakenly justify subtraction.',
+
+    # Algebra & Equation Errors
+    'Not_variable': 'Not A Variable. Treating an algebraic term or coefficient as a place value digit, such as assuming "2y" means a twenty-something number and guessing "y" is 4 to make the digits "24".',
+    'Adding_terms': 'Adding Unlike Terms. Treating an algebraic coefficient as a standalone number to be added, such as subtracting 2 from 24 to solve 2y=24.',
+    'Inverse_operation': 'Inverse Operation Error. Applying the wrong opposite operation to solve an equation, such as multiplying by 2 instead of dividing by 2 to solve 2y=24.',
+
+    # Reading Comprehension & Irrelevant Facts
+    'Wrong_Fraction': 'Solving for the given item instead of the requested item. Calculating the complementary fraction or opposite part, such as finding the shaded area instead of unshaded, or finding the red counters instead of blue.',
+    'Irrelevant': 'Using irrelevant mathematical facts, surface features, or stating true but unrelated math rules (e.g., "they are in the 3 times tables") instead of actually solving the problem.',
+
+    # Decimals & Positives/Negatives
+    'Whole_numbers_larger': 'Whole Numbers Are Larger. Believing any whole number is automatically larger than any decimal number, regardless of place value, because decimals "make numbers smaller".',
+    'Longer_is_bigger': 'Believing longer decimals are automatically larger. Judging the magnitude of a decimal purely by counting the number of digits or decimal places it has.',
+    'Shorter_is_bigger': 'Shorter Decimals Are Bigger. Believing shorter decimals are automatically larger, falsely assuming that having more decimal places or digits makes a number inherently smaller.',
+    'Ignores_zeroes': 'Ignores Zeroes. Ignoring or removing decimal placeholder zeroes, treating numbers like 6.079 as 6.79 and judging their value based on the remaining digits.',
+    'Positive': 'Positive/Negative Sign Error. Overgeneralizing the rule that "two negatives make a positive" and blindly adding two negative numbers together to get a positive result.',
+    'Tacking': 'Tacking Error. Calculating the absolute value or normal subtraction of two numbers, and then haphazardly appending or "tacking on" a negative sign to the final answer (e.g., 8-5=3, so add a minus to get -3).',
+
+    # Sequences & Proportions
+    'Wrong_term': 'Wrong Term. Correctly identifying the arithmetic sequence rule (e.g., "add 4 every time"), but calculating the value for the next immediate term instead of the requested Nth term.',
+    'Firstterm': 'First Term Error. Assuming a sequence is a simple multiple of the first term, such as finding the 6th term by multiplying the 1st term by 6.',
+    'Additive': 'Additive Reasoning Error. Using addition or subtraction to solve proportional or equivalent fraction problems instead of multiplication (e.g., "to make 15 from 10 you add 5").',
+    'Base_rate': 'Base Rate Error. Correctly calculating the unit rate for 1 item or person, but stopping there and forgetting to multiply by the new requested quantity.',
+    'Multiplying_by_4': 'Applying Direct Scaling to an Inverse Proportion. Recognizing the multiplier (e.g., times 4) but applying direct proportion by multiplying, rather than dividing for an inverse relationship.',
+
+    # Geometry & Probability
+    'Unknowable': 'Unknowable Error. Believing a solvable geometry or math problem lacks enough information, claiming it is impossible to work out properties from just one given angle or number.',
+    'Definition': 'Definition Error. Misunderstanding the definition of a geometric shape, such as blindly assuming the word "polygon" automatically refers to a standard 5-sided or 6-sided shape.',
+    'Interior': 'Interior Angle Error. Confusing interior angle sum formulas, such as multiplying a single given interior angle by the assumed number of sides to see if it matches the total sum of a shape.',
+    'Certainty': 'Certainty Bias. Confusing a very high probability (like 0.9 or 90%) with absolute certainty, forgetting that "certain" mathematically requires exactly 1.0.',
+    'Scale': 'Scale Factor Error. Misunderstanding the 0 to 1 probability scale, falsely believing that a high decimal like 0.9 is a very low number, small chance, or unlikely to happen.'
